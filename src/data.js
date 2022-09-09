@@ -1,5 +1,8 @@
-const rootVegetables =[ "turnips","ginger","beets"]
 
-const leafyVegetables = [ "broccoli","spinach","cabbage"]
+module.exports.vegetables = {
+    rootVegetables :[ "turnips","ginger","beets"],
+
+    leafyVegetables : [ "broccoli","spinach","cabbage"]
+}
 
 

@@ -5,6 +5,8 @@ const router = express.Router();
 
 
 router.post('/age', AllControllers.getAge);
+router.get('/vegetables', AllControllers.getVegetables);
+router.post('/metrics', AllControllers.getmetrics);
 
 
 module.exports = router;
